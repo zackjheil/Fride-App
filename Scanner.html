@@ -1,0 +1,55 @@
+<!doctype html>
+
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, intial-scale=1, shrink-to-fit=no">
+
+  <title>The Scanner Page</title>
+<!-- CSS Pulled In -->
+  <link rel="stylesheet" href="Scan-CSS.css">
+<!---JS Pulled In-->
+  
+<!-- Jquery Pulled IN-->
+  <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  
+    
+</head>
+
+<body>
+    <div class="dropdown">
+        <button class="dropbtn"> <img id ="Fucking_Profile" img src="generic-profile.png"> </button>
+        <div class="dropdown-content">
+          <a href="ProfilePage.html">Profile</a>
+          <a href="Recipes.html">Recipes</a>
+          <a href="Scanner.html">Scan</a>
+        </div>
+      </div>
+    <!-- Camera -->
+		<main id="camera">
+
+		    <!-- Camera sensor -->
+		    <canvas id="camera--sensor"></canvas>
+		    
+		    <!-- Camera view -->
+		    <video id="camera--view" autoplay playsinline></video>
+		    
+		    <!-- Camera output -->
+		    <img src="//:0" alt="" id="camera--output"></a>
+
+		    <!-- Camera trigger -->
+        <button id="camera--trigger">Take a picture</button>
+      
+      <a href="taken" download></a>
+
+
+		</main>
+
+		<!-- Reference to your JavaScript file -->
+		<script src="app.js"></script> 
+	</body>
+</html>
