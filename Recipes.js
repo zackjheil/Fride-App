@@ -1,4 +1,4 @@
-Var Ingred =
+var Ingred = ["Chicken", "chicken" , "Pasta" , "pasta", "Butter", "butter", "Flour", "flour", "Sugar", "sugar" ];
 
 var Form = document.querySelector("FuckShit");
 Form.addEventListener("ButtonBoi", function(event){
@@ -6,4 +6,3 @@ Form.addEventListener("ButtonBoi", function(event){
     
 });
 
-if var Form (==) var Ingred
