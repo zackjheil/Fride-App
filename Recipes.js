@@ -1,8 +1,3 @@
-var Ingred = ["Chicken", "chicken" , "Pasta" , "pasta", "Butter", "butter", "Flour", "flour", "Sugar", "sugar" ];
-
-var Form = document.querySelector("FuckShit");
-Form.addEventListener("ButtonBoi", function(event){
-    console.log("Saving Value",form.elements.value.value);
-    
-});
-
+function Chicken(){
+    window.location.href = "https://www.allrecipes.com/recipes/201/meat-and-poultry/chicken/";
+}
