@@ -34,9 +34,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="features.html">FAQ</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
+              
+             
               <li class="nav-item">
                 <a class="nav-link" href="login.html">Login/Sign up</a>
               </li>
