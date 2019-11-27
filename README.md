@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!--Custom Styles-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     
     <!--Fav Icon-->
     <link rel="shortcut icon" a href="https://cdn.discordapp.com/attachments/636722238300880896/649278299868233728/favicon-96x96.png" type="image/x-icon" />
@@ -34,8 +34,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="features.html">FAQ</a>
               </li>
-              
-             
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="login.html">Login/Sign up</a>
               </li>
