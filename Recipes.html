@@ -1,41 +1,103 @@
-<!doctype html> 
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<head>
-  <title>The Profile Page</title>
-<!-- CSS Pulled In -->
-  <!--<link rel="stylesheet" href="Recipes.css">-->
-<!---JS Pulled In-->
+    <!--Custom Styles-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <!--Fav Icon-->
+    <link rel="shortcut icon" a href="https://cdn.discordapp.com/attachments/636722238300880896/649278299868233728/favicon-96x96.png" type="image/x-icon" />
+    
+    <title>Helpo Beenfit</title>
+  </head>
+  <body>
   
-<!-- Jquery Pulled IN-->
-  <script
-  src="https://code.jquery.com/jquery-1.12.4.min.js"
-  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-</head>
 
-<body>
-    <div class="dropdown">
-        <button class="dropbtn"> <img id ="Fucking_Profile" img src="generic-profile.png"> </button>
-        <div class="dropdown-content">
-          <a href="ProfilePage.html">Profile</a>
-          <a href="Recipes.html">Recipes</a>
-          <a href="Scanner.html">Scan</a>
-        </div>
-      </div>
+    <div class="container">
+        <!--Nav-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <img src="wormy_husk.svg" height="75em" width="75em" span title="Wormy...">
+          <a class="navbar-brand" href="index.html">Helpo Beenfit</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="features.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login/Sign up</a>
+              </li>
+            </ul>
+          </div>
+          <span class="navbar-text">
+              <a href="user.html">
+              <img src="generic-profile.png" height="25em" width="25em" >
+            </a>
+            </span>
+          </nav>
+    </div>
+  
 
-      <div id="DivyBoi">
-        <h1 id="HeadyBoi"> Choose your Main Ingredients!</h1>
-        <button id="ButtonBoy" onclick="Chicken()">ID NAME HERE</button>
+             
 
-
-
-      </div>
-
-
-</body>
-<script src="Recipes.js"></script> 
-
-
-
-
+<div id="DivyBoi">
+  <br>
+  <h1 id="HeadyBoi"> Choose your Main Ingredients!</h1>
+  <br>
+  <button id="ChickenButtonBoy" onclick="Chicken()">Chicken</button>
+  <br>
+  <br>
+  <button id="PastaButtonBoy" onclick="Pasta()">Pasta</button>  
+  <br> <br>
+  <button id="EggsButtonBoy" onclick="Eggs()">Eggs</button>
+  <br> <br>
+  <button id="CheeseButtonBoy" onclick="Cheese()">Cheese</button>
+  <br> <br>
+  <button id="FlourButtonBoy" onclick="Flour()">Flour</button>
+  <br> <br>
+  <button id="PotatoeButtonBoy" onclick="Potatoe()">Potatoe</button>
+  <br> <br>
+  <button id="OilButtonBoy" onclick="Oil()">Oil</button>
+  <br> <br>
+  <button id="MilkButtonBoy" onclick="Milk()">Milk</button>
+  <br> <br>
+  <button id="ButterButtonBoy" onclick="Butter()">Butter</button>
+  <br> <br>
+  <button id="RiceButtonBoy" onclick="Rice()">Rice</button>
+  <br> <br>
+  <button id="TomatoesButtonBoy" onclick="Tomatoes()">Tomatoes</button>
+  <br> <br>
+  
+  
+  
+  </div>
+  
+  
+  </body>
+  <script src="Recipes.js"></script> 
+  
+  
+  
+  
+  </html>
+  
+  
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

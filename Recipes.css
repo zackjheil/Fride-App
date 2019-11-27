@@ -51,9 +51,9 @@
       height: 100vh;
       font-family: "Exo", sans-serif;
       color: #fff;
-      background: linear-gradient(-146deg, #ff0000, #1900ff, #00ff22, #fbff00);
+      background: linear-gradient(-146deg, #ff00005e, #1900ff5e, #00ff2259, #fbff0073);
       background-size: 950% 950%;
-      animation: gradientBG 5s ease infinite;
+      animation: gradientBG 15s ease infinite;
     }
     
     @keyframes gradientBG {
@@ -68,3 +68,78 @@
       }
     }
     
+    
+.btn-circle {
+  width: 200px;
+  height: 200px;
+  padding: 6px 0px;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.42857;
+}
+
+.floating {  
+  animation-name: floating;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.floating2 {  
+  animation-name: floating;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.floating3 {  
+  animation-name: floating;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.floating4 {  
+  animation-name: floating;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.text {
+  color: white;
+}
+
