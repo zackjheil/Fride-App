@@ -49,10 +49,12 @@
 
       <!--Buttons-->
       <div>
+      <a href="tipstricks.html>
         <p style="padding: 5em;">
       <button type="button" class="floating btn btn-warning btn-lg btn-circle text" onclick="pop()">Tips & Tricks</button>
       
     </p>
+    </a>
       <p style="padding-left:50em; width: 50px; height: 100px;">
       <button type="button" class="floating2 btn btn-success btn-lg btn-circle">Shopping List</button>
       
@@ -62,10 +64,8 @@
       
     <button type="button" class="floating4 btn btn-primary btn-lg btn-circle">In Your Fridge</button>
       
-      <a href="tipstricks.html>
     <p style=" padding-left: 35em; height: 5em;"><button type="button" class="floating3 btn btn-danger btn-lg btn-circle>Recipes</button>
     </p>
-    </a>
     
 
     <p style="margin-bottom: 20em;"></p>
