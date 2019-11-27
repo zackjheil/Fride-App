@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!--Custom Styles-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--Fav Icon-->
+    <link rel="shortcut icon" a href="https://cdn.discordapp.com/attachments/636722238300880896/649278299868233728/favicon-96x96.png" type="image/x-icon" />
+
+    <title>Tips & Tricks</title>
+  </head>
+  <body>
+    <div class="container">
+        <!--Nav-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img src="wormy_husk.svg" height="75em" width="75em" span title="Wormy...">
+          <a class="navbar-brand" href="index.html">Helpo Beenfit</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="features.html">FAQ <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login/Sign up</a>
+              </li>
+            </ul>
+          </div>
+          <span class="navbar-text">
+            <a href="user.html">
+            <img src="user (1).svg" height="25em" width="25em" >
+          </a>
+          </span>
+        </nav><!--END Nav-->
+        <h1>Tips & Tricks</h1>
+
+        <!--FAQ-->
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                 Is my food safe to eat?
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                    <a href="https://www.wikihow.com/Tell-if-Something%27s-Spoiled">General food safety tips</a>
+                    <a href="https://www.wikihow.com/Check-if-Vegetables-Are-Spoiled">Checking Vegetables</a>
+                    <a href="https://www.wikihow.com/Know-if-Meat-Is-Bad">Checking Meats</a>
+                    <a href="https://www.wikihow.com/Tell-if-an-Egg-is-Bad">Checking Eggs</a>
+                    <a href="https://www.wikihow.com/Category%3AFood-Safety">All Food safety</a>
+                </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Safe Storage
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                    <a href="url">link text</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What exactly is the logo?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                The logo is inspired by an inside joke started by our developers back in 2018. Wormy John is the true name for the logo. Wormy John is an imaginary villain created by one of the developers. Wormy John has been a constant in all projects made by the team and will continue to represent the undying friendship shared by the developers as they move forward with projects. 
+                <br>
+                <br>
+                He also steals children’s arms. 
+
+              </div>
+            </div>
+          </div>
+        
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed " type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Who made this app?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body">
+              The developers include: Steph Csikasz, Eugene Payne, Zach Heil, & Austin Holierhoek
+              <br>
+              <br>
+              AKA. Wormy INC
+            </div>
+          </div>
+        </div>
+    
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Can my account link to my smart fridge?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+          <div class="card-body">           
+          We have been asked this question once in a blue moon, and have realized the great demand for this application for the few people that ask for it. Based on its want, our team has been ever so slightly working tirelessly to get this app to link with your smart fridge. However due to the rising technology we are constantly having to re-do our app in order to keep it working on your fridge. We refuse to release an unfinished product. 
+           <br>
+           <br>
+          Coming soon. 
+
+          </div>
+        </div>
+      </div>
+    
+    <div class="card">
+      <div class="card-header" id="headingSix">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            Can I use this for my cabinet too?
+          </button>
+        </h2>
+      </div>
+      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+        <div class="card-body">
+          Yes. Use the pantry setting in the app to add food that doesn’t go in the fridge. 
+        </div>
+      </div>
+    </div>
+ 
+  <div class="card">
+    <div class="card-header" id="headingSeven">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          How can I contact you guys?
+        </button>
+      </h2>
+    </div>
+    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+      <div class="card-body">
+        You can email us at wormyINC@gmail.com.
+      </div>
+    </div>
+  </div>       
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+  <!--<div>Icons made by <a href="https://www.flaticon.com/authors/chanut" title="Chanut">Chanut</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+</html>
