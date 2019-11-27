@@ -61,9 +61,11 @@
     </div>
       
     <button type="button" class="floating4 btn btn-primary btn-lg btn-circle">In Your Fridge</button>
-
+      
+      <a href="recipes.html">
     <p style=" padding-left: 35em; height: 5em;"><button type="button" class="floating3 btn btn-danger btn-lg btn-circle>Recipes</button>
     </p>
+    </a>
 
     <p style="margin-bottom: 20em;"></p>
 
