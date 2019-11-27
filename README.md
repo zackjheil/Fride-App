@@ -51,9 +51,9 @@
       <div>
       
         <p style="padding: 5em;">
-        <a href="tipstricks.html">
-      <button type="button" class="floating btn btn-warning btn-lg btn-circle text" onclick="pop()">Tips & Tricks</button></a>  
-    </p>
+        
+      <a href="tipstricks.html" button type="button" class="floating btn btn-warning btn-lg btn-circle text" onclick="pop()">Tips & Tricks</a>  
+    
     
     
       <p style="padding-left:50em; width: 50px; height: 100px;">
