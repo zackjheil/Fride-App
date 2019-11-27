@@ -1,3 +1,3 @@
 function WhyNoWork(){
-    window.location.href = "ProfileInfo.html";
+    window.location.href = "profileinfo.html";
 }
