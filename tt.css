@@ -1,4 +1,4 @@
 /* accordion colour */
-.panel-default > .cardheader {
+.card > .cardheader {
     background-color:#000;
 }
