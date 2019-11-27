@@ -1,0 +1,4 @@
+/* accordion colour */
+.panel-default > .panel-heading {
+    background-color:#000;
+}
