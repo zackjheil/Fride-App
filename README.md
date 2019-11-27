@@ -52,7 +52,7 @@
       
         <p style="padding: 5em;">
         
-      <a href="tipstricks.html" button type="button" class="floating btn btn-warning btn-lg btn-circle text" onclick="pop()">Tips & Tricks</a>  
+      <onclick="Work1()" button type="button" class="floating btn btn-warning btn-lg btn-circle text" onclick="pop()">Tips & Tricks</a>  
     
     
     
