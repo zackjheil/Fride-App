@@ -36,30 +36,3 @@ function Tomatoes(){
 
 
 
-
-//<div id="DivyBoi">
-<h1 id="HeadyBoi"> Choose your Main Ingredients!</h1>
-<button id="ChickenButtonBoy" onclick="Chicken()">Chicken</button>
-<button id="PastaButtonBoy" onclick="Pasta()">Pasta</button>  
-<button id="EggsButtonBoy" onclick="Eggs()">Eggs</button>
-<button id="CheeseButtonBoy" onclick="Cheese()">Cheese</button>
-<button id="FlourButtonBoy" onclick="Flour()">Flour</button>
-<button id="PotatoeButtonBoy" onclick="Potatoe()">Potatoe</button>
-<button id="OilButtonBoy" onclick="Oil()">Oil</button>
-<button id="MilkButtonBoy" onclick="Milk()">Milk</button>
-<button id="ButterButtonBoy" onclick="Butter()">Butter</button>
-<button id="RiceButtonBoy" onclick="Rice()">Rice</button>
-<button id="TomatoesButtonBoy" onclick="Tomatoes()">Tomatoes</button>
-
-
-
-</div>
-
-
-</body>
-<script src="Recipes.js"></script> 
-
-
-
-
-</html>
