@@ -1,44 +1,75 @@
-html, body{
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-}
 
-#camera, #camera--view, #camera--sensor, #camera--output{
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-#camera--view, #camera--sensor, #camera--output{
-    transform: scaleX(-1);
-    filter: FlipH;
-}
-
-#camera--trigger{
+.btn-circle {
     width: 200px;
-    background-color: black;
-    color: white;
-    font-size: 16px;
-    border-radius: 30px;
-    border: none;
-    padding: 15px 20px;
+    height: 200px;
+    padding: 6px 0px;
+    border-radius: 100px;
     text-align: center;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-    position: fixed;
-    bottom: 30px;
-    left: calc(50% - 100px);
+    font-size: 30px;
+    line-height: 1.42857;
 }
 
-.taken{
-    height: 100px!important;
-    width: 100px!important;
-    transition: all 0.5s ease-in;
-    border: solid 3px white;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-    top: 20px;
-    right: 20px;
-    z-index: 2;
+.floating {  
+    animation-name: floating;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
 }
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+.floating2 {  
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+.floating3 {  
+    animation-name: floating;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+.floating4 {  
+    animation-name: floating;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+.text {
+    color: white;
+}
+
