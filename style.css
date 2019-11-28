@@ -73,3 +73,30 @@
     color: white;
 }
 
+.floating5 {  
+    animation-name: floating;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+.text {
+    color: white;
+}
+
+.food{
+    text-align: center;
+}
+
+.doll{
+    margin-bottom: 10em;
+}
+
