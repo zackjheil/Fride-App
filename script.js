@@ -15,3 +15,7 @@ function Work(){
 function Work1(){
   window.location.href = "tipstricks.html"
 }
+
+function Work2(){
+  window.location.href = "eugene.html"
+}
