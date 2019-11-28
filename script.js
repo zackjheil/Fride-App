@@ -19,3 +19,7 @@ function Work1(){
 function Work2(){
   window.location.href = "eugene.html"
 }
+
+function Work3(){
+  window.location.href = "Scanner.html"
+}
