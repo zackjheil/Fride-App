@@ -23,3 +23,7 @@ function Work2(){
 function Work3(){
   window.location.href = "Scanner.html"
 }
+
+function Work4(){
+  window.location.href = "profileinfo.html"
+}
