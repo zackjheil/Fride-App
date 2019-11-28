@@ -27,3 +27,7 @@ function Work3(){
 function Work4(){
   window.location.href = "profileinfo.html"
 }
+
+function Work5(){
+  window.location.href = "shoppinglist.html"
+}
