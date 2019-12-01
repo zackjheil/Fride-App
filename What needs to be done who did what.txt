@@ -1,0 +1,23 @@
+Need backgrounds added
+links need to link on buttons (all)
+About Page needs to be updated 
+figma polished 
+Extra pages
+sticky footer
+
+work split
+1 main page  austin
+2 tips and tricks steph
+3 recipes  zach
+4 in your fridge  austin &eugene
+5 shopping list steph
+6 scanner  zach
+7 faq  austin
+8 log in  zach
+8.5 log in user profile zach
+9 user profile  austin
+10 fridge app meat steph & eugene
+11 fridge app veggie steph & eugene
+12 fridge app dairy steph & eugene
+13 fridge app wheat steph & eugene
+14 fridge app alts steph & eugene
