@@ -3,7 +3,7 @@
 	border:none;
 	margin:0px;
 	padding:0px;
-	font-family:Courier, monospace;
+	
 }
 
 #paper {
@@ -24,7 +24,6 @@
 	overflow:hidden;
 	background-color:#FFF;
 	color:#222;
-	font-family:Courier, monospace;
 	font-weight:normal;
 	font-size:24px;
 	resize:none;
@@ -47,7 +46,6 @@
 	border-bottom:3px solid #FFF;
 	color:#FFF;
 	font-size:20px;
-	font-family:Courier, monospace;
 	height:28px;
 	font-weight:bold;
 	width:220px;
