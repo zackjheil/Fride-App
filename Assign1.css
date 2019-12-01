@@ -1,103 +1,23 @@
-.container {
-  position: relative;
-  width: 300px;
+#sortable { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    width: 60%; 
+}
+  
+#sortable li { 
+    margin: 0 3px 3px 3px; 
+    padding: 0.4em; 
+    padding-left: 1.5em; 
+    font-size: 1.4em; 
+    height: 18px; 
 }
 
-.image {
-  display: inline-block;
-  width: 100%;
-  height: auto;
+#sortable li span { 
+    position: absolute; 
+    margin-left: -1.3em; 
 }
 
-.overlay1 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #9DDD87;
-}
-.overlay2 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #3C9BDF;
-}
-.overlay3 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #DA4242;
-}
-.overlay4 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #824EF1;
-}
-.overlay5 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #E9AA4C;
-}
-
-
-.container:hover .overlay1 {
-  opacity: 1;
-}
-.container:hover .overlay2 {
-  opacity: 1;
-}.container:hover .overlay3 {
-  opacity: 1;
-}.container:hover .overlay4 {
-  opacity: 1;
-}.container:hover .overlay5 {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 30px;
-  font-family: Roboto, sans-serif, Impact,;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+img {
+    padding: 20px;
 }
