@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	width: 100%;
 	height: 100vh;
-	font-family: "Exo", sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: rgb(0, 0, 0);
 	background: linear-gradient(-146deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -61,7 +61,7 @@ body {
   .dropdown:hover .dropbtn {background-color: #e4353e;}
 
 
-  #Fucking_Profile{
+  #Fricking_Profile{
       height: 50px;
       width: 65px;
       border-radius: 50%;
