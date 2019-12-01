@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--JS-->
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <!--CSS-->
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <!--My CSS-->
+        <link rel="stylesheet" href="Assign1.css">
+        
+        <script>
+                $(function() {
+                  $( "#sortable" ).sortable();
+                  $( "#sortable" ).disableSelection();
+                } );
+                function addAnother(){
+                    $value = $('#new-item-text').val();
+                    newItem = '<li class="list-item"><div class="crossoff"></div> <span> <span class="xbox"><span class="xoff"> </span></span>' + $value + '</span> </li>';
+                    if($value){
+			        $('#list').append($newItem);
+                    $('#new-item-text').val('');
+		}
+    } 
+                $(document).on('click', '#add-button', function(){
+	            addAnother();
+                });
+                $( "#new-item-text" ).keypress(function( event ) {
+                    if ( event.which == 13 ) {
+                        addAnother();
+                     }
+                });
+                $('#list').sortable();
+                </script>
+
+        
+    </head>
+    <body>
+        <div>
+            <!--Sortable list (https://jqueryui.com/sortable/)-->
+            <ul id="sortable">
+                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"><img src="button.svg" alt="">  </li> 
+                         
+                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"><img src="button-1.svg" alt=""></li>
+                     
+                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"><img src="button-2.svg" alt=""></li>
+                      
+                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"><img src="button-3.svg" alt=""></li>
+                     
+                <a href="meatballs.html"><li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"><img src="button-4.svg" alt=""></li></a>
+                      
+                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"><img src="button-5.svg" alt=""></li>
+                     
+                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"><img src="button-6.svg" alt=""></li>
+            </ul>
+            <br><br><br>
+            <!--Item Adder (https://codepen.io/joshuajcollinsworth/pen/PNBoVo)-->
+            <P>
+        <div id="adder">
+            <h2>Add Other:</h2>
+            <input type="text"id = new-item-text>
+            <button id="add-button">add to list</button>
+            </P>
+        </div>
+            <ul id="list">
+
+
+
+
+
+
+            </ul>
+        </div>
+    </body>
+</html>
