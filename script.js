@@ -5,6 +5,9 @@ $(function () {
   $('.popover-dismiss').popover({
     trigger: 'focus'
   })
+  function Scanner(){
+    window.location.href ="Scanner.html";
+}
 
 
 

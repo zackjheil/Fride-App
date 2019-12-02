@@ -34,5 +34,8 @@ function Tomatoes(){
     window.location.href = "https://www.foodnetwork.ca/in-season/photos/fresh-tomato-recipes/#!Ina-Garten-tomato-and-goat-cheese-tart-recipe"
 }
 
+function Scanner(){
+    window.location.href ="Scanner.html";
+}
 
 

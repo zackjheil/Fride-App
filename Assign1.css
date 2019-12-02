@@ -1,3 +1,20 @@
+#Shutter{
+    height:3%;
+    width: 3%;
+    position: sticky;
+    left: 720px;
+  }
+  
+  #Footy{
+    background: rgba(211, 211, 211, 0.514);
+    padding: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0px;
+  }
+  
+
+
 #sortable { 
     list-style-type: none; 
     margin: 0; 
